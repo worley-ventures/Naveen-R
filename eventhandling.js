@@ -87,12 +87,12 @@ function log(msg) {
     // Buttons
     Buttons.callBtn.addEventListener("click", () => {
       log("Call clicked");
-      window.location.href = "tel:7358063881";
+      window.location.href = "tel:9080692994";
     });
   
     Buttons.mailBtn.addEventListener("click", () => {
       log("Mail clicked");
-      window.location.href = "mailto:contact@worlyventure.com";
+      window.location.href = "mailto:naveen.rajendran@worleyventure.com";
     });
   
     Buttons.siteBtn.addEventListener("click", () => {
