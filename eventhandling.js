@@ -6,7 +6,8 @@
       callBtn: document.querySelector("#callBtn"),
       mailBtn: document.querySelector("#mailBtn"),
       siteBtn: document.querySelector("#siteBtn"),
-      pinBtn: document.querySelector("#pinBtn")
+      pinBtn: document.querySelector("#pinBtn"),
+      InstaBtn: document.querySelector("#InstaBtn")
     }
   
     // AR system events
@@ -97,5 +98,10 @@
     Buttons.pinBtn.addEventListener("click", () => {
       //log("Pin clicked");
       window.location.href = "https://maps.app.goo.gl/qetcCErj4JorJ8Z26";
+    });
+
+    Buttons.InstaBtn.addEventListener("click", () => {
+      //log("Instagram clicked");
+      window.location.href = "https://www.instagram.com/worley_ventures?igsh=MWh3dXV4OXN5YjJzZQ==";
     });
   });
