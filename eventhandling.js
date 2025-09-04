@@ -77,16 +77,17 @@
       });
     });
   
+    /*
     // Buttons
     Buttons.callBtn.addEventListener("click", () => {
       //log("Call clicked");
-      window.location.href = "tel:9080692994";
+      window.location.href = "tel:9500162999";
     });
   
     Buttons.mailBtn.addEventListener("click", () => {
       //log("Mail clicked");
-      window.location.href = "mailto:naveen.rajendran@worleyventure.com";
-    });
+      window.location.href = "mailto:bdm@worleyventure.com";
+    });*/
   
     Buttons.siteBtn.addEventListener("click", () => {
       //log("Site clicked");
